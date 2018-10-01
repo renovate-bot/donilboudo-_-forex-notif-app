@@ -29,7 +29,7 @@ public class CheckOpportunityJob implements Job {
 
             searchForNewOpportunities(conn);
 
-            updateNotifiedRows(conn);
+            //updateNotifiedRows(conn);
 
             conn.close();
         }
